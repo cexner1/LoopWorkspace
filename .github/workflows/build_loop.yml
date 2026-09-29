@@ -220,11 +220,11 @@ jobs:
           cgm_sensor_notes \
           profiles \
           negative_insulin \
-          remote_window 
-          
+          remote_window
+
           # the final customization listed above CANNOT have a continuation character
           # more customizations can be pasted after this line
-
+          
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
